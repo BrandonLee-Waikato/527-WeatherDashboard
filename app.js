@@ -79,3 +79,5 @@ app.use(appRouter);
 app.listen(port, function () {
     console.log(`Web-distinct-project listening on http://localhost:${port}/`);
 });
+
+// Add CORS here
